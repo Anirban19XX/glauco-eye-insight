@@ -1,9 +1,8 @@
-
 import React, { useCallback, useState } from 'react';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Alert, AlertDescription } from "@/components/ui/alert";
-import { Upload, FileImage } from 'lucide-react';
+import { Upload, FileImage, Camera } from 'lucide-react';
 
 interface ImageUploadProps {
   onImageUpload: (imageUrl: string) => void;
